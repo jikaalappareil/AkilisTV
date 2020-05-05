@@ -23,7 +23,7 @@ tl.to('.milieu', {x:taille, duration: 5, ease: "power2.out"})
     .to('.bas', {y:590}, "-=1")
     .from('.akilis', {opacity: 0, duration: 2, ease: "sine.out"})
     .from('.chevre', {x: 800, duration: 0.8, ease: "elastic.out(1, 1.5)"}, "-=0.7")
-    .from('.tv', {y: 500, duration: 0.7, ease: "back.out(1.3)"})
+    .from('.tv', {y: 1500, duration: 0.7, ease: "back.out(1.2)"})
     .from('.element', {opacity: 0, y: -50, stagger: 0.3})
     .to(rule, {cssRule: {scaleY: 0}, ease: "sine.out", duration: 2}, "-=0.5")
     .from('.regard', {opacity: 0}, "-=2")
@@ -43,7 +43,7 @@ var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
     height: '162',
-    width: '178',
+    width: '179',
     videoId: 'CvC0ftEgwYU',
     playerVars : {'rel': 0, 'controls': 0},
     events: {

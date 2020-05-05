@@ -232,13 +232,16 @@ body {
     .tv {
       top: 55%; } }
 
-#player {
+.ytb {
   position: absolute;
   z-index: 601;
   top: 59%;
-  left: 78%;
+  left: 77.905%;
   transform: rotate(15deg);
   opacity: 0.5; }
+  @media (max-width: 1170px) {
+    .ytb {
+      opacity: 0; } }
 
 .commentaires {
   position: fixed;
