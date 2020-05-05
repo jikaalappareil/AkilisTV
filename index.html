@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akilis TV</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/glide.core.min.css">
+
+</head>
+
+<body>
+    <div class="haut"></div>
+    <div class="bas"></div>
+    <div class="milieu"></div>
+
+    <nav class="reseaux">
+        <ul class="reseaux-nav">
+            <li class="element">
+                 <a href="https://www.twitch.tv/akilis"> 
+                        <img src="img/stream.png" alt="" class="stream icon">
+                  <span class="legende">Stream</span> 
+                 </a>
+            </li>
+            <li class="element">
+                 <a href="https://www.youtube.com/channel/UCgNPaKqpOhiqo0Ypqt_ISSA" >
+                    <img src="img/youtube.png" alt="" class="youtube icon">
+                    <span class="legende">YouTube</span>
+                </a>
+            </li>
+            <li class="element">
+                <a href="https://twitter.com/Akilis_Ui" >
+                    <img src="img/twitter.png" alt="" class="twitter icon"> 
+                    <span class="legende">Twitter</span>
+                </a>
+            </li>
+            <li class="element">
+                <a href="https://www.instagram.com/akilis_ui/" >
+                    <img src="img/instagram.png" alt="" class="instagram icon"> 
+                    <span class="legende">Instagram</span>
+                </a>
+            </li>
+            <li class="element">
+                <a href="https://streamlabs.com/akilis/tip" >
+                    <img src="img/dollar.png" alt="" class="dollar icon"> 
+                    <span class="legende">Donation</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <img src="img/chevre_phasme.png" alt="" class="chevre">
+
+    <a href="https://www.twitch.tv/akilis"><img src="img/tv.png" alt="" class="tv"></a>
+      
+    <p class="akilis">Akilis</p>
+
+    <a href="https://twitter.com/Akilis_Ui"><img src="img/Regard_vers_lavenir.png" alt="" class="regard"></a>
+
+    <div class="description">
+        <ul class="qualites">
+            <li class="qualite">
+                <p class="independant">Streamer indépendant</p>
+            </li>
+            <li class="qualite">
+                <p class="joueur">Joueur passionné</p>
+            </li>
+            <li class="qualite">
+                <p class="sel">Garanti sans sel</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="commentaires">
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide citation">"Oui." - Oui</li>
+                <li class="glide__slide citation">"Un commentaire positif" - Manque d'inspiration</li>
+                <li class="glide__slide citation">"Un Génie Incompris" - numedrama.com</li>
+                <li class="glide__slide citation">"22/20" - jeuxvideals.com</li>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+    <div class="me_contacter">
+        <a href="mailto:akilis.contact@gmail.com" class="me_contacter">
+            <img src="img/email (1).png" alt="" class="email" href="https://twitter.com/Akilis_Ui">
+            <p class="contact">akilis.contact@gmail.com</p>
+        </a>
+    </div>
+
+    <div class="loading"></div>
+
+    <p class="load"></p>
+
+    <div class="ytb">
+        <div id="player"></div>
+    </div>
+    
+      
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+<script src="index.js"></script>
+
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+<script>
+    const config = {
+        type: 'carousel',
+        autoplay: 4500,
+        hoverpause: false,
+    }
+  new Glide('.glide', config).mount()
+</script>
+
+</html>
